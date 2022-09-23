@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="SpeechyStyles.css"/>
+    </head>
+    <body>
+        <nav>
+            <button onclick="window.location.href='Index.html'">Home</button>
+            <button onclick="window.location.href='SpeechyWeb.html'">Speechs</button>
+        </nav>
+        <div>
+            <form action="action_page.php" method="post">
+                Name: <input type="text" name="name"><br>
+                E-mail: <input type="text" name="email"><br>
+                <input type="submit">
+            </form>
+            Welcome <?php echo $_POST["name"]; ?><br>
+    Your email address is: <?php echo $_POST["email"]; ?>
+            <h1>Wecome to the collection of speeches!</h1>
+            <h3>Speech Topics</h3>
+        </div>
+    </body>
+</html>
