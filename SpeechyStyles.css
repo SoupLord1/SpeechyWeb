@@ -7,6 +7,7 @@ body {
 nav {
     background-color:rgb(56, 56, 56);
     height:30px;
+    text-align:center;
 }
 a {
     margin-left:3px;
@@ -21,4 +22,20 @@ button {
 }
 div {
     margin-top:30px;
+}
+.mainBody{
+    border-radius:10px;
+    background-color:rgb(17, 17, 17);
+    text-align:center;
+    margin:auto;
+    width:85%;
+    padding:5px;
+    margin-top:20px;
+}
+.mainText{
+    text-align:left;
+}
+.topic{
+    text-align:left;
+    padding-left:25px;
 }
